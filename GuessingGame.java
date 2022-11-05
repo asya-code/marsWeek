@@ -36,7 +36,7 @@ public class GuessingGame {
             } else if (guess < secretNumber) {
                 System.out.println("Your guess is too low, try again.\n");
             } else {
-                System.out.println("Well done, " + playerName + "! You found my number in" + tries + " tries!");
+                System.out.println("Well done, " + playerName + "! You found my number in " + tries + " tries!");
                 break;
             }
         }
