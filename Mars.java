@@ -20,6 +20,7 @@ public class Mars {
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
         }
         landing = landingCheck(100);
+        new GuessingGame();
     }
 
         public static double calculateMeals ( double meals, int shipPopulation){
