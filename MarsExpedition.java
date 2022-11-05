@@ -25,12 +25,12 @@ public class MarsExpedition {
         System.out.println("How many people they want on their team? Answer with an integer");
 
         int people;
-        try {
-            people = input.nextInt();
-        } catch (InputMismatchException e) {
-            String wrong_input = input.next();
-            System.out.println("Please answer with an integer");
-        }
+//        try {
+//            people = input.nextInt();
+//        } catch (InputMismatchException e) {
+//            String wrong_input = input.next();
+//            System.out.println("Please answer with an integer");
+//        }
         people = input.nextInt();
         if (people > 2) {
             System.out.println("That’s way to many people. We can only send 2 more members");

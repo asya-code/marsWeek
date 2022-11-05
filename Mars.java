@@ -22,6 +22,7 @@ public class Mars {
         landing = landingCheck(100);
         new GuessingGame();
         new MarsExpedition();
+        new FindingsList();
     }
 
         public static double calculateMeals ( double meals, int shipPopulation){
